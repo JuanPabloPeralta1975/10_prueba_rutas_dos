@@ -1,0 +1,6 @@
+se crea la variable rutaProductos para importar el modulo /rutaProductos
+se utiliza app.use('/productos',rutaProductos)
+
+sin rutas es app.get('/',function(req,res){
+  res.send('BIENVENIDOS AL SITIO')
+});
